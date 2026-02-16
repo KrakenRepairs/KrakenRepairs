@@ -22,4 +22,4 @@ A clean, modern static website template for a mobile electrical repair business.
 ## Customisation notes
 - Replace all instances of **Kraken Repairs** with your brand name.
 - Update contact details in `contact.html`.
-- Adjust colours in `assets/css/styles.css` under `:root`.
+- Adjust colours in `assets/CSS/styles.CSS` under `:root`.

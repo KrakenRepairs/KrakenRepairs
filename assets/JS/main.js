@@ -1,4 +1,4 @@
-/* Kraken Repairs — main.js
+/* Kraken Repairs — main.JS
    - Mobile nav toggle
    - Smooth page transitions (fade out on navigation)
    - Web3Forms AJAX enhancement (still works without JS)
@@ -102,10 +102,10 @@
         const res = await fetch(form.action, {
           method: "POST",
           body: formData,
-          headers: { Accept: "application/json" },
+          headers: { Accept: "application/JSon" },
         });
 
-        const data = await res.json().catch(() => ({}));
+        const data = await res.JSon().catch(() => ({}));
 
         if (res.ok && (data.success === true || data.message)) {
           form.reset();
