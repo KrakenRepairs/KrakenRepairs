@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Kraken Repairs</title>
+  <meta name="description" content="Send an enquiry to Kraken Repairs and we’ll call you back." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+
+<body class="page is-loading" data-page="contact">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" data-nav>
+        <span class="brand-mark" aria-hidden="true">⚡</span>
+        <span class="brand-text">Kraken Repairs</span>
+      </a>
+
+      <button class="icon-button nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+        <span class="icon-button-bars" aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav" aria-label="Primary navigation" data-nav-menu>
+        <a class="nav-link" href="index.html" data-nav>Home</a>
+        <a class="nav-link" href="about.html" data-nav>About</a>
+        <a class="nav-link is-active" href="contact.html" data-nav>Contact</a>
+        <a class="nav-cta" href="#enquiry">Make an enquiry</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero hero-small">
+      <div class="bg-pcb bg-pcb-contact" aria-hidden="true"></div>
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1 class="headline">Send an enquiry — we’ll call you back.</h1>
+        <p class="subhead">
+          Tell us what’s going on and the best time to reach you. We’ll follow up by phone to confirm details.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-flow" id="enquiry">
+      <div class="container two-col">
+        <div>
+          <div class="surface surface-raised">
+            <h2>Enquiry form</h2>
+            <p class="muted">
+              The more detail you can give us the better. This helps us with our estimates to keep you in the loop!
+            </p>
+
+            <form class="form" action="https://api.web3forms.com/submit" method="POST" data-web3form>
+              <input type="hidden" name="access_key" value="028277bc-a203-4acc-99d6-7c38403b801a" />
+              <input type="hidden" name="subject" value="New repair enquiry — Kraken Repairs" />
+              <input type="checkbox" name="botcheck" class="hidden" tabindex="-1" autocomplete="off" />
+
+              <div class="field-grid">
+                <div class="field">
+                  <label for="name">Full name</label>
+                  <input id="name" name="name" type="text" placeholder="Alex Smith" required />
+                </div>
+
+                <div class="field">
+                  <label for="phone">Phone number</label>
+                  <input id="phone" name="phone" type="tel" placeholder="07…" required />
+                </div>
+
+                <div class="field">
+                  <label for="email">Email (optional)</label>
+                  <input id="email" name="email" type="email" placeholder="alex@email.com" />
+                </div>
+
+                <div class="field">
+                  <label for="device">Device type</label>
+                  <select id="device" name="device" required>
+                    <option value="" selected disabled>Select one…</option>
+                    <option>Mobile phone</option>
+                    <option>Tablet</option>
+                    <option>Laptop</option>
+                    <option>Gaming console</option>
+                    <option>Desktop</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+
+                <div class="field field-full">
+                  <label for="details">What’s the issue?</label>
+                  <textarea id="details" name="message" rows="6" placeholder="Describe symptoms, error messages, and what you’ve tried…" required></textarea>
+                </div>
+
+                <div class="field">
+                  <label for="preferred_time">Preferred call-back time</label>
+                  <input id="preferred_time" name="preferred_call_back_time" type="text" placeholder="e.g., Weekdays after 5pm" />
+                </div>
+
+                <div class="field">
+                  <label for="postcode">Postcode / area</label>
+                  <input id="postcode" name="area" type="text" placeholder="e.g., SW1A" />
+                </div>
+              </div>
+
+              <div class="form-actions">
+                <button class="button primary" type="submit">
+                  Send enquiry
+                  <span class="button-shine" aria-hidden="true"></span>
+                </button>
+                <p class="mini muted">By submitting, you agree we may contact you about this enquiry.</p>
+              </div>
+
+              <div class="form-status" role="status" aria-live="polite" data-form-status></div>
+            </form>
+          </div>
+        </div>
+
+        <aside>
+          <div class="surface surface-raised sticky-aside">
+            <h2 class="panel-title">What happens next</h2>
+            <ol class="mini-steps">
+              <li>We review your enquiry</li>
+              <li>We call you back to confirm details</li>
+              <li>We provide an estimate and book a slot</li>
+            </ol>
+
+            <hr class="hr" />
+
+            <h3>Contact details (placeholder)</h3>
+            <p class="muted">
+              Phone: <a href="#" class="text-link" onclick="return false;">We call you!</a><br />
+              Email: <a href="#" class="text-link" onclick="return false;">KrakenRepairsScotland@gmail.com</a>
+            </p>
+
+            <p class="mini muted">
+              
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <span class="brand-mark" aria-hidden="true">⚡</span>
+          <span class="brand-text">Kraken Repairs</span>
+        </div>
+        <p class="muted">Mobile repair for phones, tablets, laptops, consoles, and desktops.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html" data-nav>Home</a>
+        <a href="about.html" data-nav>About</a>
+      </div>
+
+      <div class="footer-meta">
+        <p class="mini muted">© <span data-year></span> Kraken Repairs. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
